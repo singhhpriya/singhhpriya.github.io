@@ -8,6 +8,7 @@ Leaflet is one of the most popular JavaScript libraries for producing interactiv
 ```{r, echo=TRUE}
 # FINAL map
 library(leaflet)
+library(mapview)
 
 rice_map <- leaflet()%>%
   setView(lng=-95.403981, lat=29.716386, zoom=15)%>%
